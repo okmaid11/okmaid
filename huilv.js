@@ -23,7 +23,7 @@ const currencyNames = {
 
 
 $.http.get({
-    url: "https://api.exchangerate-api.com/v4/latest/CNY"
+    url: "https://api.exchangerate-api.com/v4/latest/JPY"
 })
     .then((response) => {
         const data = JSON.parse(response.body);
